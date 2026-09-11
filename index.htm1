@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>منصة مرتضى الجابري للتدريس</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #222;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .welcome {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+
+    .welcome h2 {
+      color: #1d4ed8;
+    }
+
+    .subjects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #1d4ed8;
+    }
+
+    .card p {
+      color: #555;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background: #1d4ed8;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>منصة مرتضى الجابري للتدريس</h1>
+    <p>مدرس الرياضيات</p>
+  </header>
+
+  <div class="container">
+
+    <div class="welcome">
+      <h2>أهلًا وسهلًا بكم</h2>
+      <p>
+        منصة تعليمية مخصصة لطلاب الرياضيات،
+        تحتوي على الدروس والمراجعات والملفات التعليمية.
+      </p>
+    </div>
+
+    <div class="subjects">
+
+      <div class="card">
+        <h3>الثالث المتوسط</h3>
+        <p>دروس وملخصات وتمارين الرياضيات</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
+
+      <div class="card">
+        <h3>الثاني المتوسط</h3>
+        <p>شرح ومراجعة مادة الرياضيات</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
+
+      <div class="card">
+        <h3>السادس العلمي</h3>
+        <p>مراجعات وتمارين الرياضيات</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
+
+      <div class="card">
+        <h3>الدروس الخصوصية</h3>
+        <p>معلومات الدروس والمواد التعليمية</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <p>مرتضى الجابري - مدرس الرياضيات</p>
+    <p>واتساب: 07811877707</p>
+  </footer>
+
+</body>
+</html>
