@@ -1,99 +1,167 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>منصة مرتضى الجابري للتدريس</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body{
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:#f4f6f9;
-  color:#222;
-}
-header{
-  background:#111827;
-  color:white;
-  text-align:center;
-  padding:35px 20px;
-}
-header h1{margin:0 0 10px}
-.container{
-  max-width:900px;
-  margin:30px auto;
-  padding:20px;
-}
-.welcome,.card{
-  background:white;
-  border-radius:15px;
-  padding:25px;
-  margin-bottom:20px;
-  text-align:center;
-  box-shadow:0 4px 15px rgba(0,0,0,.08);
-}
-h2,h3{color:#1d4ed8}
-.button{
-  display:inline-block;
-  padding:11px 20px;
-  background:#1d4ed8;
-  color:white;
-  text-decoration:none;
-  border-radius:8px;
-}
-footer{
-  background:#111827;
-  color:white;
-  text-align:center;
-  padding:20px;
-}
-</style>
+  <title>الثالث المتوسط - منصة مرتضى الجابري</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f6ff;
+      color: #123b7a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0645a5, #0878d1);
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 0 20px;
+    }
+
+    .welcome {
+      background: white;
+      border-radius: 18px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+      margin-bottom: 25px;
+    }
+
+    .welcome h2 {
+      margin-top: 0;
+      color: #0645a5;
+    }
+
+    .chapters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+    }
+
+    .card h3 {
+      color: #0645a5;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #555;
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      background: #0866c6;
+      color: white;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 12px;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      opacity: 0.85;
+    }
+
+    .back {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    footer {
+      background: #0645a5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-<h1>منصة مرتضى الجابري للتدريس</h1>
-<p>مدرس الرياضيات</p>
-</header>
+  <header>
+    <h1>أساسيات الرياضيات</h1>
+    <p>الصف الثالث المتوسط</p>
+  </header>
 
-<div class="container">
+  <main class="container">
 
-<div class="welcome">
-<h2>أهلًا وسهلًا بكم</h2>
-<p>منصة تعليمية لدروس ومراجعات الرياضيات</p>
-</div>
+    <section class="welcome">
+      <h2>المدرس مرتضى الجابري</h2>
+      <p>
+        أهلاً وسهلاً بكم في صفحة الثالث المتوسط
+      </p>
+      <p>
+        دروس وملخصات وتمارين الرياضيات
+      </p>
+    </section>
 
-<div class="card">
-<h3>الثالث المتوسط</h3>
-<p>دروس وملخصات وتمارين الرياضيات</p>
-<a class="button" href="third.html">الدخول</a>
-</div>
+    <section class="chapters">
 
-<div class="card">
-<h3>الثاني المتوسط</h3>
-<p>شرح ومراجعة مادة الرياضيات</p>
-<a class="button" href="#">الدخول</a>
-</div>
+      <div class="card">
+        <h3>الفصل الأول</h3>
+        <p>دروس وملخصات وتمارين الفصل الأول</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
 
-<div class="card">
-<h3>السادس العلمي</h3>
-<p>مراجعات وتمارين الرياضيات</p>
-<a class="button" href="#">الدخول</a>
-</div>
+      <div class="card">
+        <h3>الفصل الثاني</h3>
+        <p>دروس وملخصات وتمارين الفصل الثاني</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
 
-<div class="card">
-<h3>الدروس الخصوصية</h3>
-<p>معلومات الدروس والمواد التعليمية</p>
-<a class="button" href="#">الدخول</a>
-</div>
+      <div class="card">
+        <h3>الفصل الثالث</h3>
+        <p>دروس وملخصات وتمارين الفصل الثالث</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
 
-</div>
+      <div class="card">
+        <h3>الفصل الرابع</h3>
+        <p>دروس وملخصات وتمارين الفصل الرابع</p>
+        <a class="button" href="#">الدخول</a>
+      </div>
 
-<footer>
-<p>مرتضى الجابري - مدرس الرياضيات</p>
-<p>واتساب: 07811877707</p>
-</footer>
+    </section>
+
+    <div class="back">
+      <a class="button" href="index.html">العودة إلى الصفحة الرئيسية</a>
+    </div>
+
+  </main>
+
+  <footer>
+    منصة مرتضى الجابري للتدريس
+  </footer>
 
 </body>
 </html>
